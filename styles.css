@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(#216869, #49A078);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid blanchedalmond;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: burlywood;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: burlywood;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/zodiacwheel.jpg");
+    background-size: cover;
+}
+
+#gift-img-giphy_godcomplex {
+    height: 280px;
+}
+
+#gift-img-giphy_godcomplex:hover {
+    background-image: url("images/giphy_godcomplex.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gift-img-giphy_madfake:hover {
+    background-image: url("images/giphy_madfake.gif");
+}
+
+#gift-img-giphy_obnoxious {
+    height: 250px;
+}
+
+#gift-img-giphy_obnoxious:hover {
+    background-image: url("images/giphy_obnoxious.gif");
+    background-repeat: no-repeat;
+}
+
+#gift-img-giphy_ugly:hover {
+    background-image: url("images/giphy_ugly.gif");
+}
+
+#gift-img-giphy_cheers {
+    height: 250px;
+}
+
+#gift-img-giphy_cheers:hover {
+    background-image: url("images/giphy_cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
